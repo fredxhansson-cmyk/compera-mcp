@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.fredxhansson-cmyk/compera",
+  "title": "Compera",
+  "description": "Live Swedish price & service comparison (products, broadband, mobile, electricity, loans)",
+  "version": "1.0.0",
+  "websiteUrl": "https://compera.se",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://compera.se/mcp"
+    }
+  ]
+}
